@@ -204,18 +204,18 @@
       <!-- Dev 3 : Feature Section -->
       <div
         name="container-bottom-frame"
-        class="flex flex-col items-center justify-center w-[1439px] h-auto top-[1096px] left-px px-[120px] pt-0 pb-20 gap-20 bg-[#F6F6FB]"
+        class="flex flex-col w-[375px] sm:w-[1439px] h-auto items-center justify-center top-[1096px] left-px px-4 sm:px-[120px] pt-0 pb-20 gap-20 bg-[#F6F6FB]"
       >
         <section
-          class="bg-white/70 w-[1199px] h-fit rounded-3xl px-30 py-20 gap-10 flex flex-col items-center justify-center"
+          class="flex flex-col w-full sm:w-[1199px] h-fit items-center justify-center bg-white/70 rounded-3xl px-5 sm:px-[120px] py-[60px] sm:py-20 gap-10"
         >
           <h2
             class="text-[#1A1A2C] w-[261px] h-[48px] font-inter font-bold text-[44px] leading-[48px] text-center"
           >
             Get in Touch
           </h2>
-          <div name="input-fields" class="w-[589px] h-fit gap-5">
-            <div name="input-name" class="flex flex-col w-[589px] h-fit gap-1">
+          <div name="input-fields" class="w-full h-fit gap-5">
+            <div name="input-name" class="flex flex-col w-full h-fit gap-1">
               <label
                 for="name"
                 class="block text-base font-inter font-normal text-[#5F5F76]"
@@ -268,12 +268,14 @@
           </div>
           <button
             type="submit"
-            class="w-[589px] h-fit rounded-2xl px-9 py-4 gap-1.5 bg-[#1A1A2C] font-inter text-white font-semibold text-base hover:bg-blue-900"
+            class="w-full h-fit rounded-2xl px-9 py-4 gap-1.5 bg-[#1A1A2C] font-inter text-white font-semibold text-base hover:bg-blue-900"
           >
             Submit
           </button>
         </section>
-        <footer class="flex flex-row w-full h-fit justify-between">
+        <footer
+          class="flex flex-col w-full h-fit justify-between items-center sm:flex-row"
+        >
           <p class="font-inter font-medium text-base text-[#5F5F76]">
             © 2024 Your Company. All rights reserved.
           </p>
