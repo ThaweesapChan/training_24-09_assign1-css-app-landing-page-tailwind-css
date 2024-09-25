@@ -7,6 +7,7 @@
     <title>Acme App</title>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
+
   <body class="bg-[#f6f6fb]">
     <!-- Start Coding Here -->
     <header
@@ -198,6 +199,107 @@
             </h1>
           </div>
         </div>
+      </div>
+
+      <!-- Dev 3 : Feature Section -->
+      <div
+        name="container-bottom-frame"
+        class="flex flex-col items-center justify-center w-[1439px] h-auto top-[1096px] left-px px-[120px] pt-0 pb-20 gap-20 bg-[#F6F6FB]"
+      >
+        <section
+          class="bg-white/70 w-[1199px] h-fit rounded-3xl px-30 py-20 gap-10 flex flex-col items-center justify-center"
+        >
+          <h2
+            class="text-[#1A1A2C] w-[261px] h-[48px] font-inter font-bold text-[44px] leading-[48px] text-center"
+          >
+            Get in Touch
+          </h2>
+          <div name="input-fields" class="w-[589px] h-fit gap-5">
+            <div name="input-name" class="flex flex-col w-[589px] h-fit gap-1">
+              <label
+                for="name"
+                class="block text-base font-inter font-normal text-[#5F5F76]"
+                >Name</label
+              >
+              <input
+                type="text"
+                id="name"
+                name="name"
+                class="block w-full border border-gray-300 rounded-md p-2 focus:outline-none focus:ring focus:ring-blue-500"
+                placeholder="John Doe"
+                required
+              />
+              <p name="name-help" class="font-inter text-xs text-[#5F5F76]"></p>
+            </div>
+            <div name="input-email">
+              <label
+                for="email"
+                class="block text-base font-inter font-normal text-[#5F5F76]"
+                >Email</label
+              >
+              <input
+                type="email"
+                id="email"
+                name="email"
+                class="block w-full border border-gray-300 rounded-md p-2 focus:outline-none focus:ring focus:ring-blue-500"
+                placeholder="john@example.com"
+                required
+              />
+              <p
+                name="email-help"
+                class="font-inter text-xs text-[#5F5F76]"
+              ></p>
+            </div>
+            <div name="input-message">
+              <label
+                for="message"
+                class="block text-base font-inter font-normal text-[#5F5F76]"
+                >Message</label
+              >
+              <textarea
+                id="message"
+                name="message"
+                class="block w-full h-[102px] border border-gray-300 rounded-md p-2 focus:outline-none focus:ring focus:ring-blue-500 gap-2.5"
+                placeholder="Your message..."
+                rows="4"
+                required
+              ></textarea>
+            </div>
+          </div>
+          <button
+            type="submit"
+            class="w-[589px] h-fit rounded-2xl px-9 py-4 gap-1.5 bg-[#1A1A2C] font-inter text-white font-semibold text-base hover:bg-blue-900"
+          >
+            Submit
+          </button>
+        </section>
+        <footer class="flex flex-row w-full h-fit justify-between">
+          <p class="font-inter font-medium text-base text-[#5F5F76]">
+            © 2024 Your Company. All rights reserved.
+          </p>
+          <div class="flex flex-row w-fit h-fit gap-[37px]">
+            <a
+              href="#"
+              class="font-inter font-semibold text-base text-[#1A1A2C] hover:text-blue-800"
+              >FAQ</a
+            >
+            <a
+              href="#"
+              class="font-inter font-semibold text-base text-[#1A1A2C] hover:text-blue-800"
+              >Tesms</a
+            >
+            <a
+              href="#"
+              class="font-inter font-semibold text-base text-[#1A1A2C] hover:text-blue-800"
+              >AI Policy</a
+            >
+            <a
+              href="#"
+              class="font-inter font-semibold text-base text-[#1A1A2C] hover:text-blue-800"
+              >Pricing</a
+            >
+          </div>
+        </footer>
       </div>
     </main>
   </body>
